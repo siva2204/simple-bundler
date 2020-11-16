@@ -1,5 +1,5 @@
-import { name } from "./module2.js";
+import { firstName } from "./module2.js";
 
-const sayHi = `hello ${name}`;
+const sayHi = `hello ${firstName}`;
 
 export default sayHi;
