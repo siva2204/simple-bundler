@@ -85,4 +85,4 @@ function bundleModules(graph) {
 
 const graph = dependencyGraph("modules/entry.js");
 const resultBundle = bundleModules(graph);
-console.log(resultBundle);
+fs.writeFileSync("main.js", resultBundle);
